@@ -36,3 +36,5 @@ gem "wdm", "~> 0.1.0", :platforms => [:mingw, :x64_mingw, :mswin]
 # kramdown v1, comment out this line.
 gem "kramdown-parser-gfm"
 
+# To access remote themes, include the following plugin
+gem "jekyll-remote-theme"
