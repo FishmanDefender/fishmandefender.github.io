@@ -7,3 +7,6 @@ _site/
 vendor/
 
 Gemfile.lock
+
+_unused/
+_site_copy/
