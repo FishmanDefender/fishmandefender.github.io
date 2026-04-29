@@ -5,6 +5,4 @@
 layout: default #home
 ---
 
-Testing this file
-
-<!-- ![Profile](/assets/img/pictures/20241224_150411.jpg) -->
+# **Excellence in All Things**
