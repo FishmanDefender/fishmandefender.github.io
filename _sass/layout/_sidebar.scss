@@ -62,12 +62,27 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     transform: translateZ(0); /* fixed the zoom in Safari */
 
     @include bp.sm {
-      width: 7rem;
-      height: 7rem;
+      width: 6.5rem;
+      height: 6.5rem
+    }
+
+    @include bp.lg {
+      width: 11.5rem;
+      height: 11.5rem
     }
 
     img {
       transition: transform 0.5s;
+      width: fit-content;
+      height: auto;
+
+      @include bp.lt(bp.get(lg)) {
+        object-position: 0rem -2.5rem;
+      }
+
+      @include bp.lg {
+        object-position: 0rem -3.5rem;
+      }
 
       &:hover {
         transform: scale(1.2);
