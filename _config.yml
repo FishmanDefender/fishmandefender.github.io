@@ -14,9 +14,9 @@ timezone: America/New_York
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Michael Schott # the main title
+title: Michael L. Schott # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: "Particle Physicist | Data Scientist \n Educator | Writer | Forever DM" # A text-focused Jekyll theme # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -43,7 +43,7 @@ social:
     - https://github.com/FishmanDefender # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - www.linkedin.com/in/michael-louis-schott
+    - https://linkedin.com/in/michael-louis-schott
 
 # Site Verification Settings
 webmaster_verifications:
@@ -99,7 +99,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/pictures/20221018_143054_HDR.jpg # assets/img/S_Star_HiConDark_Square.svg # assets/img/pictures/20241224_150411.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -149,6 +149,7 @@ pwa:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
+# paginate_path: "/posts/page:num/"  # TODO - Figure out how to set up pagination...
 
 # The base URL of your site
 baseurl: ""
