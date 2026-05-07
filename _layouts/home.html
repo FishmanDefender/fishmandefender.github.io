@@ -46,6 +46,9 @@ layout: default
   {% endfor %}
 {% endif %}
 
+<!-- Markdown on Homepage fix suggested by NichtsHsu https://github.com/cotes2020/jekyll-theme-chirpy/issues/708#issuecomment-1275668889 -->
+{{ content | markdownify }}
+
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in posts %}
     <article class="card-wrapper card">
