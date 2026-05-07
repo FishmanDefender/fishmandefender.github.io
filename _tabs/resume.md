@@ -5,4 +5,5 @@ icon: fas fa-file
 order: 1
 ---
 
-<object data="../assets/pdf/Schott.Michael_Resume_General.pdf" width="1000" height="800" type='application/pdf'></object>
+<!-- Added _resume.scss to manage this object -->
+<object id="resume-obj" data="../assets/pdf/Schott.Michael_Resume_General.pdf" type='application/pdf'></object>
