@@ -1,0 +1,17 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as mx;
+@use '../abstracts/breakpoints' as bp;
+@use '../abstracts/placeholders';
+
+#resume-obj{
+
+    width:100%;
+    height:70vh;
+
+    @include bp.lg {
+        // I think this has improved the appearence in mobile
+        height: 75vh
+    }
+
+
+}
