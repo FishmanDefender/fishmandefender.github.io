@@ -3,8 +3,9 @@ layout: post
 title:  "Test Post!"
 date:   2026-04-28 23:55:09 -0400
 categories: tests
+tags: test
 excerpt_separator: <--more-->
-pin: true
+pin: false
 ---
 
 This is a test!
