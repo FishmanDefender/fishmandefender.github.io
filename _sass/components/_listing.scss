@@ -1,0 +1,39 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/breakpoints' as bp;
+@use '../abstracts/placeholders';
+@use '../themes/light';
+@use '../themes/dark';
+
+
+.listing {
+  @extend %rounded;
+
+  border: 0;
+  background: var(--card-bg);
+  box-shadow: var(--card-shadow);
+
+}
+
+// Copied from _tags.scss
+.listing-button {
+  border-radius: 0.7em;
+  padding: 6px 8px 7px;
+  margin-right: 0.8rem;
+  letter-spacing: 0;
+  color: var(--text-color);
+  background-color: var(--button-bg);
+  border: 1px solid var(--btn-border-color) !important;
+  box-shadow: 0 0 3px 0 var(--tag-shadow);
+  text-decoration: none;
+
+  // TODO: Get the button text to not change color on hover!
+
+  &:hover {
+    color: var(--text-color);
+    background-color: var(--sidebar-hover-bg);
+  }
+}
+
+.lb-holder {
+  line-height: 1.75;
+}
